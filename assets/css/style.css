@@ -10,6 +10,9 @@
  */
 
 
+ body{
+     background-color: #EAF0F1;
+ }
 /* Navbar properties */
 
 .navbar-light{
@@ -104,4 +107,50 @@
     color:white;
     font-size: 1em;
     
+}
+
+/* home haha  */
+
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.4em;
+    color:#00215a;
+}
+
+.paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    color:#01173d;
+}
+
+
+/* parallax */
+
+.parallax1{
+    width:100%;
+    background:url('../images/parallax1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.normal-btn{
+    border: 1px solid #00409f;
+}
+
+.normal-btn:hover{
+    color:white;
+    background-color: #00409f;
+}
+
+.normal-btn-dark{
+    color:white;
+    border: 1px solid white;
+}
+
+.normal-btn-dark:hover{
+    color:#00409f;
+    background-color: white;
 }
