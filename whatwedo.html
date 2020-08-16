@@ -22,10 +22,10 @@
         <div class="collapse navbar-collapse " id="mynavbar1" style="margin-right: 20px;">
           <!-- navbar menu  -->
           <ul class=" nav navbar-nav ml-auto ml-4 "  id="navmenu" style="margin-right: 20px;">
-            <li class="nav-item " role="presentation" ><a href="index.html" class="nav-link btn   navbar-menu-font">HOME</a></li>
-            <li class="nav-item " role="presentation"><a href="whatwedo.html" class="nav-link btn active  navbar-menu-font">WHAT WE DO</a></li>
-            <li class="nav-item " role="presentation"><a href="ourwork.html" class="nav-link btn  navbar-menu-font">OUR WORK</a></li>
-            <li class="nav-item " role="presentation" ><a href="contactus.html" class="nav-link btn  navbar-menu-font">CONTACT US</a></li>
+            <li class="nav-item " role="presentation" ><a href="index.html" class="nav-link   navbar-menu-font">HOME</a></li>
+            <li class="nav-item " role="presentation"><a href="#wherestarted" class="nav-link  active  navbar-menu-font">WHAT WE DO</a></li>
+            <li class="nav-item " role="presentation"><a href="ourwork.html" class="nav-link   navbar-menu-font">OUR WORK</a></li>
+            <li class="nav-item " role="presentation" ><a href="joinwithus.html" class="nav-link   navbar-menu-font">JOIN WITH US</a></li>
           </ul>
           <span class="nav-link btn navbar-menu-font navbar-donate-light" data-toggle="modal" data-target="#donatemodal">DONATE</span>
         </div> 
@@ -107,7 +107,7 @@
       </div>
     </div>
     
-    <div class="container" >
+    <div class="container" id="wherestarted" >
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb" style="background-color: #00409f;">
           <li class="breadcrumb-item active" ><a href="index.html" style="color: white;">Home</a></li>
@@ -188,12 +188,12 @@
       </div>
       <div class="row">
         <div class="col-md-6 col-12 align-self-center">
-          <img src="assets/images/inspire.jpg" width="500" alt="">
+          <img src="assets/images/inspire.jpg" class="img-fluid"  alt="">
           
         </div>
         <div class="col-md-6 col-12 align-self-center">
           <div class="row">
-            <div class="col heading text-center">
+            <div class="col heading ">
               WHAT INSPIRED US?
             </div>
           </div>
@@ -209,7 +209,7 @@
       </div>
       <div class="row " >
         <div class="col text-right">
-          <a href="" class="fas fa-chevron-up" style="font-size: 3em ; color:white; background-color:#00409f ; padding:7px; border-radius: 6px;  margin: 20px;"></a>
+          <a href="#wherestarted" class="fas fa-chevron-up" style="font-size: 3em ; color:white; background-color:#00409f ; padding:7px; border-radius: 6px;  margin: 20px;"></a>
         </div>
       </div>
       
@@ -219,7 +219,7 @@
     <div style="background-color: #00409f; ">
       <div class="container">
         <p class="paragraph text-center" style="color: white; padding: 9px;margin:0;">
-          If you want to contribute to our work or start a fundraiser, click the button and help them. &nbsp; &nbsp; <button class="btn normal-btn-dark paragraph" style="font-size: 0.9em;">Donate or Fundraise</button>
+          If you want to contribute to our work or start a fundraiser, click the button and help them. &nbsp; &nbsp; <button data-toggle="modal" data-target="#donatemodal" class="btn normal-btn-dark "  style="font-size: 0.9em;">Donate or Fundraise</button>
         </p>
 
       </div>
@@ -231,10 +231,10 @@
             <div class="col-md-3 col-12 align-self-center text-center">
                <ul style="list-style-type: none; margin:30px; padding:0; ">
                  <li><a href="index.html"  class="footer-text">HOME</a></li>
-                 <li><a href="whatwedo.html"  class="footer-text">WHAT WE DO</a></li>
+                 <li><a href="#wherestarted"  class="footer-text">WHAT WE DO</a></li>
                  <li><a href="ourwork.html"  class="footer-text">OUR WORKS</a></li>
-                 <li><a href="contactus.html"  class="footer-text">CONTACT US</a></li>
-                 <li><a href=""  class="footer-text">DONATE</a></li>
+                 <li><a href="joinwithus.html"  class="footer-text">JOIN WITH US</a></li>
+                 <li><a href="" data-toggle="modal" data-target="#donatemodal"  class="footer-text">DONATE</a></li>
                </ul>
             </div>
             <div class="col-md-3 col-12 align-self-center text-center" >
