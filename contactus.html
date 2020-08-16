@@ -27,9 +27,80 @@
             <li class="nav-item " role="presentation"><a href="ourwork.html" class="nav-link btn  navbar-menu-font">OUR WORK</a></li>
             <li class="nav-item " role="presentation" ><a href="contactus.html" class="nav-link btn active  navbar-menu-font">CONTACT US</a></li>
           </ul>
-          <span class="nav-link btn navbar-menu-font navbar-donate-light" id="navbar-donate" data-toggle="modal" data-target="#mylogin">DONATE</span>
+          <span class="nav-link btn navbar-menu-font navbar-donate-light" id="navbar-donate" data-toggle="modal" data-target="#donatemodal">DONATE</span>
         </div> 
     </nav>
+
+    <div class="modal fade " id="donatemodal">
+      <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content modal-bg" style="border-radius: 30px;">
+          <div class="modal-body " >
+            <div class="container">
+              <div class="row">
+                <div class="col-12 text-right">
+                  <button type="button " class="close" data-dismiss="modal"><i class="fas fa-times modal-close"></i></button><!-- close button -->
+    
+                </div>
+                <div class="col-12 text-center">
+                  <img src="assets/images/donate.svg" class="text-center" width="145px;" alt=""> <!-- logo -->
+                  <div class="heading" style="color: white;">DONATE</div>
+    
+                </div>
+                <div class="col-12">
+                  <!-- form haha  -->
+                  <form action="">
+                    <div class="row">
+                      <div class="col-12" style="height:30px;"></div>
+                    </div>
+                    <div class="row form-group justify-content-center align-items-center">
+                      <div class="col-md-2 align-self-center">
+                        <label for="name" class="paragraph" style="color: white;">Name:</label>
+                      </div>
+                      <div class="col-md-7">
+                        <input type="text" class="form-control" placeholder="Your Name" id="name">
+                      </div>
+                    </div>
+                    <div class="row form-group justify-content-center">
+                      <div class="col-md-2">
+                        <label for="email" class="paragraph" style="color: white;" >Email:</label>
+                      </div>
+                      <div class="col-md-7">
+                        <input type="email" class="form-control" placeholder="Email" id="email">
+                      </div>
+                    </div>
+                    <div class="row form-group justify-content-center">
+                      <div class="col-md-2">
+                        <label for="phno" class="paragraph" style="color: white;">Phno:</label>
+                      </div>
+                      <div class="col-md-7">
+                        <input type="tel" class="form-control" placeholder="Phone no" id="amt">
+                      </div>
+                    </div>
+                    <div class="row form-group justify-content-center">
+                      <div class="col-md-2">
+                        <label for="amt" class="paragraph" style="color: white;">Amount:</label>
+                      </div>
+                      <div class="col-md-7">
+                        <input type="number" class="form-control" placeholder="In Rupees" id="amt">
+                      </div>
+                    </div>
+                    <div class="row" style="height: 25px;"></div>
+                    <div class="row justify-content-center">
+                      <div class="col-12 text-center">
+                        <input type="submit" value="Proceed" class="btn navbar-donate-dark" style="font-size: 1.3em;"  id="submit">
+                      </div>  
+                    </div>
+                  </form>
+                  <div class="row" style="height: 30px;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+    </div>
 
     <div class="container">
       <div class="row" style="height:100px;">

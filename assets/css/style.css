@@ -188,3 +188,30 @@ html{
     background-size: cover;
     background-position: center;
 }
+
+.modal-bg{
+    background-color: #010d22;
+
+}
+
+.modal-close{
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+
+.modal-close:hover{
+    color:#3fa9f5;
+}
+
+.work-bg{
+
+    width:100%;
+    background:url('../images/work.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.carmini{
+    max-width: 700px;
+}
