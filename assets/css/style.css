@@ -11,6 +11,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
  body{
      background-color: #EAF0F1;
@@ -116,6 +117,7 @@ html{
     font-size:1em;
 }
 
+
 .scroll-icon{
     opacity: 0.5;
     transition: 0.3 ease-in-out;
@@ -135,6 +137,145 @@ html{
     color: white;
 
 }
+
+#aboutheading{
+    opacity: 0;
+}
+
+#aboutleft{
+    opacity: 0;
+}
+
+#aboutright{
+    opacity: 0;
+}
+
+#parallax1{
+    opacity: 0;
+}
+
+#covidheading{
+    opacity: 0;
+}
+
+#covidleft1{
+    opacity: 0;
+}
+
+#covidleft2{
+    opacity: 0;
+}
+
+#covidright{
+    opacity: 0;
+}
+
+#parallax2{
+    opacity: 0;
+}
+
+#mottoleft{
+    opacity: 0;
+}
+
+#mottoright{
+    opacity: 0;
+}
+
+
+
+
+#wherestartedheading{
+    opacity: 0;
+}
+
+#wherestartedright{
+    opacity: 0;
+}
+
+#wherestartedleft{
+    opacity: 0;
+}
+
+#parallax3{
+    opacity: 0;
+}
+
+#whatheading{
+    opacity: 0;
+}
+
+#whatleft{
+    opacity: 0;
+}
+
+#whatheading{
+    opacity: 0;
+}
+
+#whatright{
+    opacity: 0;
+}
+
+#parallax4{
+    opacity: 0;
+}
+
+#inspireleft{
+    opacity: 0;
+}
+
+#inspireright{
+    opacity: 0;
+}
+
+
+
+
+#ourworkheading{
+    opacity: 0;
+}
+
+#ourworkleft{
+    opacity: 0;
+}
+
+#ourworkright{
+    opacity: 0;
+}
+
+#worksection{
+    opacity: 0;
+}
+
+
+
+#nextheading{
+    opacity: 0;
+}
+
+#nextleft{
+    opacity: 0;
+}
+
+#nextright{
+    opacity: 0;
+}
+
+#joinheading{
+    opacity: 0;
+}
+#joinleft{
+    opacity: 0;
+}
+#joinright{
+    opacity: 0;
+}
+
+#volunteer{
+    opacity: 0;
+}
+
 
 /* footer */
 .footer{
