@@ -39,12 +39,13 @@ html{
     font-weight: 600;
     background-color: #00409f ;
     border: 1px solid  #00409f;
+    transition: all 0.2s ease-in-out;
     
 }
 .navbar-donate-dark:hover{
-    color:  white;
-    border: 1px solid  #00409f;
-    background-color: rgba(0, 0, 0, 0);
+    color:  #00409f ;
+    border: 1px solid  white;
+    background-color: white;
     
 }
 
@@ -52,12 +53,13 @@ html{
     color: white;
     font-weight: 600;
     background-color: #00409f ;
+    transition: all 0.2s ease-in-out;
     
 }
 .navbar-donate-light:hover{
     color:  #00215a;
-    border: 1px solid  #00409f;
-    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid  white;
+    background-color: white;
     
 }
 
@@ -124,7 +126,7 @@ a:hover {
 
 .scroll-icon{
     opacity: 0.5;
-    transition: 0.3 ease-in-out;
+    transition: all 0.2s ease-in-out;
 
 }
 .scroll-icon:hover{
@@ -210,11 +212,36 @@ p .paragraph{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 1.1em;
+    transition: all 0.2s ease-in-out;
 }
 
 .normal-btn-dark:hover{
     color:#00409f;
     background-color: white;
+}
+
+.socialicon:hover{
+    color: #00215a;
+    
+
+}
+
+.up-btn{
+    font-size: 3em ; color:white; background-color:#00409f ; padding:7px; border-radius: 6px; margin: 20px;
+    border: 1px solid #00409f;
+    transition: all 0.2s ease-in-out;
+}
+.up-btn:hover{
+    color:#00409f ;
+    background-color:white ;
+    
+
+}
+.socialicon{
+    color: white;
+     font-size:2em;
+      margin:7px;
+      transition: all 0.2s ease-in-out;
 }
 .parallax2{
     width:100%;
@@ -275,6 +302,13 @@ p .paragraph{
     max-width: 500px;
     padding:30px;
 
+}
+
+.mobility{
+    transition: all 0.2s ease-in-out;
+}
+.mobility:hover{
+    transform: scale(1.017);
 }
 
 .modal-open{padding-right: 0px !important;}
