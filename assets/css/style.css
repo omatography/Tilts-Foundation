@@ -262,6 +262,11 @@ p .paragraph{
     
 }
 
+.formbtn:hover{
+    background-color: white;
+    color:#00215a;
+}
+
 .carmini{
     max-width: 700px;
 }
@@ -271,6 +276,8 @@ p .paragraph{
     padding:30px;
 
 }
+
+.modal-open{padding-right: 0px !important;}
 
 
 /* for js animation  */
